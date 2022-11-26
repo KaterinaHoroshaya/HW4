@@ -11,11 +11,11 @@ Console.WriteLine("Введите степень, в которую нужно �
 int b = Convert.ToInt32(Console.ReadLine());
 
 int count = 1;
-int result =1;
+int result = 1;
 
-while (count<=b)
+while (count <= b)
 {
-    result=result*a;
+    result = result * a;
     count++;
 }
 
